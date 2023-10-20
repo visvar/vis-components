@@ -14,7 +14,7 @@ Example usage:
         radius_fn={value => Math.max(0, Math.min(1, value / 70))}
         width_fn={value => Math.max(0.1, Math.min(1, value / 70))}
         base_radius=70 
-        base_width=30
+        base_width=30>
     </FlowerGlyphs>
 </svg>
 ````
