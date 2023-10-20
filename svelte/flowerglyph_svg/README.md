@@ -23,3 +23,16 @@ Which then looks like this:
 
 ![image](flower_glyph.png)
 
+Each petal consists of four bezier curves.
+The shape of those can be controlled with additional parameters:
+
+````js
+// the flower glyph consists of four bezier curves (two each side, then mirrored)
+// these parameters control those relative to their length and width. in range [0, 1]
+// dw & dh control the roundness of the tip  (second and third curve)
+// de12 and dcp1 control the shape of the body (first and fourth curve)
+export let de12 = 0.7;
+export let dcp1 = 0.7;
+export let dw = 0.2;
+export let dh = 0.7;
+````
